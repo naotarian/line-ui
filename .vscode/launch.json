@@ -5,7 +5,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "rakudasu_mobile",
+      "name": "Uber_Deli",
       "request": "launch",
       "type": "dart"
     }

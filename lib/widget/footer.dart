@@ -10,6 +10,7 @@ class Footer extends HookWidget{
   @override
   Widget build(BuildContext context) {
     final int count = useProvider(counterProvider).state;
+
     return BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         selectedItemColor: Colors.indigo,
@@ -23,16 +24,20 @@ class Footer extends HookWidget{
               title: Text('ホーム'),
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.calendar_today),
-              title: Text('カレンダー'),
+              icon: Icon(Icons.search),
+              title: Text('検索'),
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.unarchive),
-              title: Text('勤怠提出'),
+              icon: Icon(Icons.label),
+              title: Text('注文'),
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.settings),
-              title: Text('設定'),
+              icon: Icon(Icons.account_circle),
+              title: Text('アカウント'),
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.label),
+              title: Text('Eats パス'),
             ),
         ]
     );
