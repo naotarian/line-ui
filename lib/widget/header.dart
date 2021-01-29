@@ -15,7 +15,7 @@ class Header extends HookWidget with PreferredSizeWidget{
       title: _buildTitle(count),
       backgroundColor: Colors.white,
       centerTitle: true,
-      elevation: 2.0,
+      elevation: 0,
     );
   }
 }

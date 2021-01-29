@@ -17,7 +17,7 @@ class Footer extends HookWidget{
         unselectedItemColor: Colors.grey,
         onTap: (index) => context.read(counterProvider).state = index,
         currentIndex: count,
-        elevation: 2.0,
+        elevation: 5.0,
         items: [
             BottomNavigationBarItem(
               icon: Icon(Icons.home),

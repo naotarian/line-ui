@@ -16,7 +16,7 @@ class RootPage extends HookWidget {
   Widget build(BuildContext context) {
     final int count = useProvider(counterProvider).state;
     return Scaffold(
-      appBar: Header(),
+      // appBar: Header(),
       body: _buildTemplate(count),
       bottomNavigationBar: Footer(),
     );
